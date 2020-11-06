@@ -12,11 +12,13 @@ h1{
   line-height: 2;
   background-color: #3CB371;
   color: #FFFFFF;
+  font-family: 'Georgia', serif;
 }
 
 .logo{
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
+  align-items: center;
 }
 
 h2{
@@ -27,8 +29,8 @@ h2{
 }
 h3{
   font-size: 1.3em;
-  text-align: left;
-  padding: 10px;
+  text-align: center;
+  padding: 15px;
   font-family: 'Georgia', serif;
 }
 p {
@@ -60,10 +62,24 @@ a.skip:focus{
 }
 
 footer{
-  background-color: 	#2E8B57;
+  background-color: #3CB371;
   color: white;
-  padding: 30px;
+  padding: 10px;
+}
+footer >p{
   text-align: center;
+  font-size: 14pt
+}
+
+.me{
+  text-align: center; 
+}
+
+.me > img{
+  max-width: 350px;
+  border: 7px 	#3CB371 solid;
+  margin: 10px;
+  overflow: hidden;
 }
 
 .container{
@@ -73,8 +89,26 @@ footer{
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   overflow: hidden;
-  width:100px;
-  height:100px
+  max-height: 150px;
+  max-width: 150px
+}
+
+.image1{
+  grid-column: 1/span 1;
+  width: 150px;
+  height: 150px;
+}
+  
+.image2{
+  grid-column: 2/span 1;
+  width: 150px;
+  height: 150px
+}
+  
+.image3{
+  grid-column: 3/span 1;
+  width: 150px;
+  height: 150px
 }
 
 header{
@@ -135,12 +169,32 @@ header{
           text-decoration-style: dotted;
 }
 
+.shortbread{
+  padding: 15px;
+}
+
+.shortbread >h4{
+  font-size: 20pt;
+  padding: 5px
+}
+.shortbread > ol{
+  font-family: 'Georgia', serif;
+  padding: 0px 50px;
+}
+
+.shortbread > img{
+  max-width: 350px;
+  border: 10px 	#3CB371 solid;
+  margin: 10px;
+  overflow: hidden;
+}
+
 body {
   font-family: 'Arial Black', sans-serif; 
 }
 
 form {
-  border: 3px solid #2E8B57;
+  border: 3px solid #3CB371;
 }
 
 legend{ 
@@ -181,7 +235,7 @@ textarea{
 
 
 input[type=submit] {
-  background-color: #38803C;
+  background-color: #3CB371;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
